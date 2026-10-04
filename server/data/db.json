@@ -1,0 +1,167 @@
+{
+  "users": [
+    {
+      "id": "u-admin-1",
+      "name": "Alexander Bartholomew Admin",
+      "email": "admin@storerating.com",
+      "passwordHash": "$2b$10$XcGTKldKcLkUofTy3.yoKeRhQxrJPPtTS2naooIOHCihRFdC/G4vm",
+      "address": "100 Government Plaza, Suite 400, Capital District, NY 10001",
+      "role": "admin",
+      "createdAt": "2026-09-04T14:46:17.376Z"
+    },
+    {
+      "id": "u-owner-1",
+      "name": "Jonathan Montgomery Davis",
+      "email": "owner@techhaven.com",
+      "passwordHash": "$2b$10$XcGTKldKcLkUofTy3.yoKeTRg.mRi4eqEraboqYGyBhaqjJdFP7ey",
+      "address": "450 Silicon Boulevard, Innovation District, San Francisco, CA 94107",
+      "role": "owner",
+      "createdAt": "2026-09-06T14:46:17.376Z"
+    },
+    {
+      "id": "u-owner-2",
+      "name": "Victoria Charlotte Sterling",
+      "email": "owner@artisanbakery.com",
+      "passwordHash": "$2b$10$XcGTKldKcLkUofTy3.yoKeTRg.mRi4eqEraboqYGyBhaqjJdFP7ey",
+      "address": "742 Evergreen Terrace, Suite 12B, Springfield, IL 62704",
+      "role": "owner",
+      "createdAt": "2026-09-09T14:46:17.376Z"
+    },
+    {
+      "id": "u-owner-3",
+      "name": "Sebastian Maximilian Stone",
+      "email": "owner@apexfitness.com",
+      "passwordHash": "$2b$10$XcGTKldKcLkUofTy3.yoKeTRg.mRi4eqEraboqYGyBhaqjJdFP7ey",
+      "address": "880 Olympic Way, Health Center, Seattle, WA 98101",
+      "role": "owner",
+      "createdAt": "2026-09-14T14:46:17.376Z"
+    },
+    {
+      "id": "u-user-1",
+      "name": "Eleanor Catherine Vance",
+      "email": "user@example.com",
+      "passwordHash": "$2b$10$XcGTKldKcLkUofTy3.yoKexWpDOAMdKyblV8ARgEYiufw4iB0mjVy",
+      "address": "123 Maple Wood Lane, North End, Boston, MA 02108",
+      "role": "user",
+      "createdAt": "2026-09-16T14:46:17.376Z"
+    },
+    {
+      "id": "u-user-2",
+      "name": "Benjamin Harrison Clarke",
+      "email": "benjamin.clarke@mail.com",
+      "passwordHash": "$2b$10$XcGTKldKcLkUofTy3.yoKexWpDOAMdKyblV8ARgEYiufw4iB0mjVy",
+      "address": "904 Oak Ridge Avenue, Apartment 4C, Austin, TX 78701",
+      "role": "user",
+      "createdAt": "2026-09-19T14:46:17.376Z"
+    },
+    {
+      "id": "u-user-3",
+      "name": "Guinevere Arabella Jenkins",
+      "email": "guinevere.j@mail.com",
+      "passwordHash": "$2b$10$XcGTKldKcLkUofTy3.yoKexWpDOAMdKyblV8ARgEYiufw4iB0mjVy",
+      "address": "314 Bluebird Way, Sunnyvale, CA 94086",
+      "role": "user",
+      "createdAt": "2026-09-24T14:46:17.376Z"
+    }
+  ],
+  "stores": [
+    {
+      "id": "s-techhaven",
+      "name": "TechHaven Electronics & Gadgets",
+      "email": "contact@techhaven.com",
+      "address": "450 Silicon Boulevard, Innovation District, San Francisco, CA 94107",
+      "ownerId": "u-owner-1",
+      "createdAt": "2026-09-08T14:46:17.376Z"
+    },
+    {
+      "id": "s-artisanbakery",
+      "name": "Grand Artisan Organic Bakery",
+      "email": "hello@artisanbakery.com",
+      "address": "742 Evergreen Terrace, Suite 12B, Springfield, IL 62704",
+      "ownerId": "u-owner-2",
+      "createdAt": "2026-09-10T14:46:17.376Z"
+    },
+    {
+      "id": "s-apexfitness",
+      "name": "Apex Horizon Fitness Center",
+      "email": "frontdesk@apexfitness.com",
+      "address": "880 Olympic Way, Health Center, Seattle, WA 98101",
+      "ownerId": "u-owner-3",
+      "createdAt": "2026-09-15T14:46:17.376Z"
+    },
+    {
+      "id": "s-greenleaf",
+      "name": "Greenleaf Flora & Garden Supplies",
+      "email": "info@greenleafflora.com",
+      "address": "215 Meadowbrook Parkway, Portland, OR 97201",
+      "ownerId": "u-owner-1",
+      "createdAt": "2026-09-20T14:46:17.376Z"
+    },
+    {
+      "id": "s-blueharbor",
+      "name": "Blue Harbor Seafood & Grill",
+      "email": "reservations@blueharbor.com",
+      "address": "55 Pier View Esplanade, Monterey, CA 93940",
+      "ownerId": null,
+      "createdAt": "2026-09-26T14:46:17.376Z"
+    }
+  ],
+  "ratings": [
+    {
+      "id": "r-1",
+      "storeId": "s-techhaven",
+      "userId": "u-user-1",
+      "rating": 5,
+      "createdAt": "2026-09-22T14:46:17.376Z",
+      "updatedAt": "2026-09-22T14:46:17.376Z"
+    },
+    {
+      "id": "r-2",
+      "storeId": "s-techhaven",
+      "userId": "u-user-2",
+      "rating": 4,
+      "createdAt": "2026-09-25T14:46:17.376Z",
+      "updatedAt": "2026-09-25T14:46:17.376Z"
+    },
+    {
+      "id": "r-3",
+      "storeId": "s-artisanbakery",
+      "userId": "u-user-1",
+      "rating": 5,
+      "createdAt": "2026-09-26T14:46:17.376Z",
+      "updatedAt": "2026-09-26T14:46:17.376Z"
+    },
+    {
+      "id": "r-4",
+      "storeId": "s-artisanbakery",
+      "userId": "u-user-3",
+      "rating": 5,
+      "createdAt": "2026-09-29T14:46:17.376Z",
+      "updatedAt": "2026-09-29T14:46:17.376Z"
+    },
+    {
+      "id": "r-5",
+      "storeId": "s-apexfitness",
+      "userId": "u-user-2",
+      "rating": 4,
+      "createdAt": "2026-09-30T14:46:17.376Z",
+      "updatedAt": "2026-09-30T14:46:17.376Z"
+    },
+    {
+      "id": "r-6",
+      "storeId": "s-apexfitness",
+      "userId": "u-user-3",
+      "rating": 3,
+      "createdAt": "2026-10-02T14:46:17.376Z",
+      "updatedAt": "2026-10-02T14:46:17.376Z"
+    },
+    {
+      "id": "r-7",
+      "storeId": "s-greenleaf",
+      "userId": "u-user-1",
+      "rating": 4,
+      "createdAt": "2026-10-03T14:46:17.376Z",
+      "updatedAt": "2026-10-03T14:46:17.376Z"
+    }
+  ]
+}
