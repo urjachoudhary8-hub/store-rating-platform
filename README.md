@@ -44,4 +44,8 @@ A web-based application that allows users to explore stores and submit ratings. 
 
 5. Configure the required environment variables using `.env.example`.
 
- 
+ ## Author
+
+**Urja Choudhary**
+
+[LinkedIn Profile](https://www.linkedin.com/in/urja-choudhary-3a1430367/)
